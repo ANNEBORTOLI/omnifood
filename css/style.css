@@ -108,6 +108,20 @@ body {
 /***************************/
 /* HEADER */
 /***************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  /* We are using a fixed height because we want header to be sticky and it is easier that way*/
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
 
 /***************************/
 /* HERO SECTION */
@@ -115,7 +129,7 @@ body {
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero-description {
@@ -127,6 +141,7 @@ body {
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
