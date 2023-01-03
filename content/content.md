@@ -139,5 +139,9 @@ Privacy & terms
 - CTA
 - Footer
 
+### UX Design
+
 - Unplash
 - UI Faces
+- https://maketintsandshades.com/
+- coolors
